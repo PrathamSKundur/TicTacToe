@@ -37,7 +37,7 @@ public class Session  {
 		int pos = 0;
 		int arr[] = {0,0,0};
 		int alpha=-1;
-		if( b.getempty() == 9 ) {		//If first move , any position is fine but 0 is optimal
+		if( b.getempty() == 9 ) {		//If first move , any position is fine
 			try {
 				b.setBoard(0, 0, 2);
 			} 
@@ -87,7 +87,7 @@ public class Session  {
 		val = -10;
 		int arr[] = {0,0,0};
 		
-		//If first move ,  any position is fine but 0 is optimal
+		//If first move ,  any position is fine 
 		if( b.getempty() == 9 ) {		
 			try {
 				b.setBoard(0, 0, 2);
