@@ -8,4 +8,4 @@ tictactoe package :
 gui package :
   - TicTacTacToeGui : gui program to play against computer
    
-To play run TicTacTacToeGui 
+To play run TicTacToeGui 
